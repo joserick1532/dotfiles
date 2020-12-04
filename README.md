@@ -1,13 +1,12 @@
 # Mi pequeño git para instalar zsh y autocompletions
 
-# ashrc - zshrc Config
+# **bashrc - zshrc Config**
 
 
 # Para instalar zsh 
 
-\n
 
-sudo pacman -S zsh \n
+sudo pacman -S zsh 
 
 chsh -s $(which zsh)
 
@@ -22,7 +21,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
 
-\n No olvidar cambiar el directorio en .zshrc
+No olvidar cambiar el directorio en .zshrc
 
 
 
